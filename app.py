@@ -104,12 +104,4 @@ def justGo(name, fstname, bdate):
 
 if __name__ == '__main__':
 	justGo(php_name, php_fstName, php_bthDate)
-
-#print ("AAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHH")
-# Error 404 management for any invalid GET request
-# @app.errorhandler(404)
-# def myErrorHandle(e):
-# 	titre = "Erreur 404!  Page non trouvée!"
-# 	message = "La page " + request.path + " n'existe pas!"
-# 	return render_template('page404.tpl', titre = titre, message = message)
 	
