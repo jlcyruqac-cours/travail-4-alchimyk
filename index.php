@@ -3,7 +3,8 @@
 	Title: SmallCMS
 	Descr: Mini gestionnaire de contenu base sur flasklike
 	Author: Jean-Luc Cyr
-	Date: 2019/10/18
+	Modified: Jean-Sebastien St-Pierre
+	Date: 2019/10/23
 */
 require('flasklike.php');
 
@@ -20,13 +21,15 @@ function(){
 // Tentative de connexion
 $route_defs['/horoscope']['POST'] = 
 function(){
-	/*$arg = ['name'=>$_POST['inputName'],
-				'fstName'=>$_POST['inputFstName'],
-				'bthDate'=>$_POST['inputDOB'],
-				];*/
+	
 	$name = $_POST['inputName'];
 	$fstName = $_POST['inputFstName'];
 	$bthDate = $_POST['inputDOB'];
+
+	/*<script type='text/javascript'>
+	window.alert($name & $fstName & $bthDate);
+	</script>*/
+	
 	exec("python app.py $name $fstName $bthDate", $output);
 	foreach ($output as $key)
 	{

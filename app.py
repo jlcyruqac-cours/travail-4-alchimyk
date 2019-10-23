@@ -2,7 +2,7 @@
 # -*- coding: latin-1 -*-
 
 # app.py by Jean-Sébastien St-Pierre STPJ15018206, October 2019
-# This is the logic implementation for the basic flask server
+# This is the logic implementation for ze traitement des données
 
 import sys
 import re, json, datetime
