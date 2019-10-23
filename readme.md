@@ -3,6 +3,8 @@
 By Jean-Sébastien St-Pierre
 2019/10/11
 
+CE DOCUMENT N'A PAS ENCORE ÉTÉ MIS À JOUR POUR LE LAB4!!!
+
 PREREQUISITES:
 
 - Python 3.x must be installed on the machine
