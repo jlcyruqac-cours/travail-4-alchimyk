@@ -6,9 +6,7 @@
 	Date: 2019/10/18
 */
 
-////////////////////////////////////////////////////////////////
-// Add a default / route
-//global $route_defs;
+# Default route
 $route_defs['/']['GET'] = 
 function(){
 	echo "Hello World!";
@@ -35,8 +33,10 @@ function fl_run() {
 		}
 	} else {
 		// Return : Not Found - 404
-		header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found", true, 404);
-		echo "404 - File not found";
+		#header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found", true, 404);
+		#echo "404 - File not found";
+		$params = ['titre' => 'Ooooops erreur 404!!!!', 'message' => "La page " . $route . " n'existe pas!"];
+		fl_render_template('templates/page404.tpl', $params);
 	}
 	die();
 }

@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-	$( "#inputDOB" ).datepicker();
+	$( "#inputDOB" ).datepicker({ dateFormat: "yy-mm-dd" });
 
 	$("button").click(function(event)
 	{

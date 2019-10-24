@@ -20,7 +20,7 @@
 
     <body>
         <h1>{{ titre }}</h1>
-		<img src="images/scrat2.jpg" alt="Scrat" height="300" width="600">
+		<img src="./static/images/scrat2.jpg" alt="Scrat" height="300" width="600">
 		<br><h2>{{ message }}</h2>		
 		<p><font size = "4"><a href="/">Retour à l'accueil</a></font></p>
     </body>
