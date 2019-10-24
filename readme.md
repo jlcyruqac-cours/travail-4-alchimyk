@@ -6,7 +6,7 @@ By Jean-Sébastien St-Pierre
 
 PREREQUISITES:
 
-- Python 3.x must be installed on the machine
+- Python 3.x must be installed on the machine (surprise!)
 - PHP 3.3.11 or higher must be installed IN THE PROJECT DIRECTORY
 - Tested with Windows 10 build 1803
 
@@ -15,10 +15,10 @@ RUNNING INSTRUCTIONS:
 - Open a Powershell/Bash command shell
 - At root level, clone the Git repo with "git clone [theRepoURL]"
 - Navigate to folder "travail-4-alchimyk"
-- Install Python dependancies (surprise!, there are Python dependancies!!) by typing the following command: "pip install -r requirements.txt"
+- Install Python dependancies (of course, there are Python dependancies!) by typing the following command: "pip install -r requirements.txt"
   (there's too many of them, I know, but I was feeling lazy)
-- From root/travail-4-alchimyk, launch the PHP server by typing "php -S localhost:5000 (or whatever is your favourite TCP port, you won't be judged for that as we are
-  very inclusive developers), and press Enter
+- From root/travail-4-alchimyk, launch the PHP server by typing "php -S localhost:5000 (or whatever is your favourite TCP port, you won't be 
+  judged for that as we are very inclusive developers), and hit Enter
 - The server should indicate it's on  -> if not, do just like everybody and search Google!
 
 The app will be available at https://localhost:5000 (or any of your other kinky port choice, you nasty boy!) via your favorite internet browser
